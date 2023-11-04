@@ -18,7 +18,7 @@ class Star(Body):
 
     STEFAN_BOLTZMANN_CONSTANT = 5.67037e-8
 
-    S_RADIUS = 696340 # Solar Radius in M
+    S_RADIUS = 696340000 # Solar Radius in M
     S_LUMINOSITY = 3.828e+26 # Solar Luminosity in W
     S_MASS = 1.989e+30 # Solar mass in KG
     S_TEMPERATUE = 5778 # Solar temperature in K
