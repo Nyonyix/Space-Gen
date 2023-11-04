@@ -1,0 +1,370 @@
+{
+    "star": {
+        "M": {
+            "descriptor": "Red",
+            "weight": 0.60,
+            "luminosity_classes": {
+                "V": {
+                    "descriptor": "Main Sequence",
+                    "weight": 0.6,
+                    "temperature_range": [2400, 3800],
+                    "mass_range": [0.08, 0.45],
+                    "radius_range": [0.08, 0.7],
+                    "luminosity_range": [0.0001, 0.08],
+                    "age_range": [0.01, 14],
+                    "metallicity_range": [-1, 0.3]
+                },
+                "III": {
+                    "descriptor": "Giant",
+                    "weight": 0.2,
+                    "temperature_range": [3200, 4000],
+                    "mass_range": [1, 15],
+                    "radius_range": [10, 100],
+                    "luminosity_range": [100, 10000],
+                    "age_range": [0.01, 14],
+                    "metallicity_range": [-1, 0.3]
+                },
+                "II": {
+                    "descriptor": "Bright Giant",
+                    "weight": 0.1,
+                    "temperature_range": [3200, 4000],
+                    "mass_range": [5, 15],
+                    "radius_range": [50, 500],
+                    "luminosity_range": [1000, 20000],
+                    "age_range": [0.01, 14],
+                    "metallicity_range": [-1, 0.3]
+                },
+                "Ia": {
+                    "descriptor": "Supergiant",
+                    "weight": 0.09,
+                    "temperature_range": [3500, 4000],
+                    "mass_range": [15, 20],
+                    "radius_range": [300, 500],
+                    "luminosity_range": [15000, 30000],
+                    "age_range": [0.01, 0.05],
+                    "metallicity_range": [-0.5, 0.5]
+                },
+                "Ib": {
+                    "descriptor": "Supergiant",
+                    "weight": 0.05,
+                    "temperature_range": [3500, 4000],
+                    "mass_range": [15, 25],
+                    "radius_range": [300, 600],
+                    "luminosity_range": [1000, 20000],
+                    "age_range": [0.01, 0.05],
+                    "metallicity_range": [-0.5, 0.5]
+                },
+                "0": {
+                    "descriptor": "Hypergiant",
+                    "weight": 0.01,
+                    "temperature_range": [3500, 4000],
+                    "mass_range": [20, 35],
+                    "radius_range": [300, 1000],
+                    "luminosity_range": [1000, 600000],
+                    "age_range": [0.01, 0.05],
+                    "metallicity_range": [-0.5, 0.5]
+                }
+            }
+        },
+        "K": {
+            "descriptor": "Orange",
+            "weight": 0.17,
+            "luminosity_classes": {
+                "V": {
+                    "descriptor": "Main Sequence",
+                    "weight": 0.6,
+                    "temperature_range": [3700, 5200],
+                    "mass_range": [0.45, 0.8],
+                    "radius_range": [0.7, 0.96],
+                    "luminosity_range": [0.08, 0.6],
+                    "age_range": [0.01, 14],
+                    "metallicity_range": [-1, 0.3]
+                },
+                "III": {
+                    "descriptor": "Giant",
+                    "weight": 0.2,
+                    "temperature_range": [3900, 4800],
+                    "mass_range": [1, 15],
+                    "radius_range": [10, 100],
+                    "luminosity_range": [100, 10000],
+                    "age_range": [0.01, 14],
+                    "metallicity_range": [-1, 0.3]
+                },
+                "II": {
+                    "descriptor": "Bright Giant",
+                    "weight": 0.1,
+                    "temperature_range": [3900, 4800],
+                    "mass_range": [5, 15],
+                    "radius_range": [50, 500],
+                    "luminosity_range": [1000, 20000],
+                    "age_range": [0.01, 14],
+                    "metallicity_range": [-1, 0.3]
+                },
+                "Ia": {
+                    "descriptor": "Supergiant",
+                    "weight": 0.1,
+                    "temperature_range": [4000, 5000],
+                    "mass_range": [15, 20],
+                    "radius_range": [300, 500],
+                    "luminosity_range": [15000, 30000],
+                    "age_range": [0.01, 0.05],
+                    "metallicity_range": [-0.5, 0.5]
+                },
+                "Ib": {
+                    "descriptor": "Supergiant",
+                    "weight": 0.05,
+                    "temperature_range": [4000, 5000],
+                    "mass_range": [5, 15],
+                    "radius_range": [100, 500],
+                    "luminosity_range": [1000, 20000],
+                    "age_range": [0.01, 0.05],
+                    "metallicity_range": [-0.5, 0.5]
+                }
+            }
+        },
+        "G": {
+            "descriptor": "Yellow",
+            "weight": 0.10,
+            "luminosity_classes": {
+                "V": {
+                    "descriptor": "Main Sequence",
+                    "weight": 0.76,
+                    "temperature_range": [5300, 6000],
+                    "mass_range": [0.8, 1.2],
+                    "radius_range": [0.8, 1.1],
+                    "luminosity_range": [0.6, 1.5],
+                    "age_range": [0.1, 17],
+                    "metallicity_range": [-0.3, 0.3]
+                },
+                "IV": {
+                    "descriptor": "Subgiant",
+                    "weight": 0.1,
+                    "temperature_range": [5300, 6000],
+                    "mass_range": [1.2, 1.5],
+                    "radius_range": [1.1, 1.5],
+                    "luminosity_range": [1.5, 2.5],
+                    "age_range": [0.1, 17],
+                    "metallicity_range": [-0.3, 0.3]
+                },
+                "III": {
+                    "descriptor": "Giant",
+                    "weight": 0.1,
+                    "temperature_range": [4600, 5300],
+                    "mass_range": [1.2, 1.5],
+                    "radius_range": [6, 20],
+                    "luminosity_range": [10, 100],
+                    "age_range": [0.1, 17],
+                    "metallicity_range": [-0.3, 0.3]
+                },
+                "II": {
+                    "descriptor": "Bright Giant",
+                    "weight": 0.02,
+                    "temperature_range": [4600, 5300],
+                    "mass_range": [1.5, 3],
+                    "radius_range": [20, 60],
+                    "luminosity_range": [100, 1000],
+                    "age_range": [0.1, 17],
+                    "metallicity_range": [-0.3, 0.3]
+                },
+                "Ia": {
+                    "descriptor": "Supergiant",
+                    "weight": 0.01,
+                    "temperature_range": [4600, 5300],
+                    "mass_range": [3, 6],
+                    "radius_range": [60, 200],
+                    "luminosity_range": [1000, 10000],
+                    "age_range": [0.1, 17],
+                    "metallicity_range": [-0.3, 0.3]
+                },
+                "Ib": {
+                    "descriptor": "Supergiant",
+                    "weight": 0.01,
+                    "temperature_range": [4600, 5300],
+                    "mass_range": [1.5, 3],
+                    "radius_range": [20, 60],
+                    "luminosity_range": [100, 1000],
+                    "age_range": [0.1, 17],
+                    "metallicity_range": [-0.3, 0.3]
+                }
+            }
+        },
+        "F": {
+            "descriptor": "Yellow-White",
+            "weight": 0.06,
+            "luminosity_classes": {
+                "V": {
+                    "descriptor": "Main Sequence",
+                    "weight": 0.5,
+                    "temperature_range": [6000, 7500],
+                    "mass_range": [1, 1.4],
+                    "radius_range": [1.15, 1.4],
+                    "luminosity_range": [1.5, 6],
+                    "age_range": [1, 6],
+                    "metallicity_range": [-0.5, 0.3]
+                },
+                "IV": {
+                    "descriptor": "Subgiant",
+                    "weight": 0.1,
+                    "temperature_range": [6000, 7500],
+                    "mass_range": [1.2, 1.5],
+                    "radius_range": [1.5, 2],
+                    "luminosity_range": [6, 20],
+                    "age_range": [1, 6],
+                    "metallicity_range": [-0.5, 0.3]
+                },
+                "III": {
+                    "descriptor": "Giant",
+                    "weight": 0.1,
+                    "temperature_range": [6000, 7500],
+                    "mass_range": [1.5, 2],
+                    "radius_range": [2, 4],
+                    "luminosity_range": [20, 100],
+                    "age_range": [1, 6],
+                    "metallicity_range": [-0.5, 0.3]
+                },
+                "II": {
+                    "descriptor": "Bright Giant",
+                    "weight": 0.1,
+                    "temperature_range": [6000, 7500],
+                    "mass_range": [2, 3],
+                    "radius_range": [4, 7],
+                    "luminosity_range": [100, 1000],
+                    "age_range": [1, 6],
+                    "metallicity_range": [-0.5, 0.3]
+                },
+                "Ia": {
+                    "descriptor": "Supergiant",
+                    "weight": 0.1,
+                    "temperature_range": [6000, 7000],
+                    "mass_range": [3, 10],
+                    "radius_range": [10, 50],
+                    "luminosity_range": [1000, 100000],
+                    "age_range": [1, 50],
+                    "metallicity_range": [-0.5, 0.5]
+                },
+                "Ib": {
+                    "descriptor": "Supergiant",
+                    "weight": 0.1,
+                    "temperature_range": [6000, 7000],
+                    "mass_range": [1, 3],
+                    "radius_range": [50, 200],
+                    "luminosity_range": [1000, 10000],
+                    "age_range": [1, 50],
+                    "metallicity_range": [-0.5, 0.5]
+                }
+            }
+        },
+        "A": {
+            "descriptor": "White",
+            "weight": 0.05,
+            "luminosity_classes": {
+                "V": {
+                    "descriptor": "Main Sequence",
+                    "weight": 0.8,
+                    "temperature_range": [7500, 10000],
+                    "mass_range": [1.4, 2.1],
+                    "radius_range": [1.2, 1.6],
+                    "luminosity_range": [5, 25],
+                    "age_range": [0.4, 10],
+                    "metallicity_range": [-0.5, 0.3]
+                },
+                "IV": {
+                    "descriptor": "Subgiant",
+                    "weight": 0.1,
+                    "temperature_range": [7500, 10000],
+                    "mass_range": [1.4, 2.1],
+                    "radius_range": [1.6, 4.0],
+                    "luminosity_range": [25, 100],
+                    "age_range": [0.4, 10],
+                    "metallicity_range": [-0.5, 0.3]
+                },
+                "III": {
+                    "descriptor": "Giant",
+                    "weight": 0.05,
+                    "temperature_range": [7200, 9500],
+                    "mass_range": [1.4, 2.1],
+                    "radius_range": [4.0, 12.0],
+                    "luminosity_range": [100, 500],
+                    "age_range": [0.4, 10],
+                    "metallicity_range": [-0.5, 0.3]
+                },
+                "Ia": {
+                    "descriptor": "Supergiant",
+                    "weight": 0.03,
+                    "temperature_range": [7000, 9000],
+                    "mass_range": [10, 80],
+                    "radius_range": [100, 1000],
+                    "luminosity_range": [1000, 100000],
+                    "age_range": [0.01, 0.1],
+                    "metallicity_range": [-0.5, 0.5]
+                },
+                "Ib": {
+                    "descriptor": "Supergiant",
+                    "weight": 0.02,
+                    "temperature_range": [7000, 9000],
+                    "mass_range": [5, 25],
+                    "radius_range": [20, 100],
+                    "luminosity_range": [100, 10000],
+                    "age_range": [0.01, 0.1],
+                    "metallicity_range": [-0.5, 0.5]
+                }
+            }
+        },
+        "B": {
+            "descriptor": "Blue",
+            "weight": 0.03,
+            "luminosity_classes": {
+                "V": {
+                    "descriptor": "Main Sequence",
+                    "weight": 0.8,
+                    "temperature_range": [10000, 30000],
+                    "mass_range": [2.1, 16],
+                    "radius_range": [1.6, 3.1],
+                    "luminosity_range": [25, 3000],
+                    "age_range": [0.02, 1.8],
+                    "metallicity_range": [-0.5, 0.3]
+                },
+                "IV": {
+                    "descriptor": "Subgiant",
+                    "weight": 0.1,
+                    "temperature_range": [10000, 30000],
+                    "mass_range": [2.1, 16],
+                    "radius_range": [3.1, 8.6],
+                    "luminosity_range": [3000, 10000],
+                    "age_range": [0.02, 1.8],
+                    "metallicity_range": [-0.5, 0.3]
+                },
+                "III": {
+                    "descriptor": "Giant",
+                    "weight": 0.05,
+                    "temperature_range": [10000, 30000],
+                    "mass_range": [2.1, 16],
+                    "radius_range": [8.6, 30.0],
+                    "luminosity_range": [10000, 100000],
+                    "age_range": [0.02, 1.8],
+                    "metallicity_range": [-0.5, 0.3]
+                },
+                "Ia": {
+                    "descriptor": "Supergiant",
+                    "weight": 0.03,
+                    "temperature_range": [10000, 30000],
+                    "mass_range": [16, 120],
+                    "radius_range": [30, 1000],
+                    "luminosity_range": [100000, 1000000],
+                    "age_range": [0.01, 0.1],
+                    "metallicity_range": [-0.5, 0.5]
+                },
+                "Ib": {
+                    "descriptor": "Supergiant",
+                    "weight": 0.02,
+                    "temperature_range": [10000, 30000],
+                    "mass_range": [8, 25],
+                    "radius_range": [20, 100],
+                    "luminosity_range": [10000, 100000],
+                    "age_range": [0.01, 0.1],
+                    "metallicity_range": [-0.5, 0.5]
+                }
+            }
+        }        
+    }
+}
